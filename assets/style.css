@@ -1,6 +1,7 @@
 header {
+    position: sticky;
     background-color: pink;
-    border: 3px solid black;
+    border: 5px solid black;
 }
 
 header >h1 {
@@ -20,6 +21,29 @@ header >h1 {
     align-content: flex-end;
 }
 
-.portfolio {
+.about {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#portfolio {
     color: aqua;
+}
+
+#abouthead {
+    position: relative;
+    font-size: 34px;
+    top: 70px;
+    left: 20px;
+}
+
+#aboutpara {
+    display: flex;
+    position: relative;
+    left: 220px;
+    bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 600px;
+    border: 3px dashed aqua;
+    font-size: 24px;
 }
