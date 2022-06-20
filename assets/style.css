@@ -1,17 +1,25 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 header {
     position: sticky;
     background-color: pink;
     border: 5px solid black;
 }
 
+h2 {
+    font-size: 34px;
+}
+
 header >h1 {
-    font-family: 'Courier New', Courier, monospace;
     font-size: 40px;
     margin-left: 15px;
 }
 
+
+
 .navbar {
-    font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
     display: flex;
     justify-content: flex-end;
@@ -21,8 +29,18 @@ header >h1 {
     align-content: flex-end;
 }
 
-.about {
-    font-family: 'Courier New', Courier, monospace;
+.projectcard {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.cardtext {
+    position: absolute;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #portfolio {
@@ -31,7 +49,6 @@ header >h1 {
 
 #abouthead {
     position: relative;
-    font-size: 34px;
     top: 70px;
     left: 20px;
 }
@@ -43,7 +60,14 @@ header >h1 {
     bottom: 50px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-right: 600px;
+    margin-right: 800px;
     border: 3px dashed aqua;
     font-size: 24px;
+}
+
+#cheatsheetimg {
+    opacity: 0.5;
+    border-radius: 3%;
+    width: 900px;
+    height: 600px;
 }
