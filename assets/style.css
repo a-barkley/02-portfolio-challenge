@@ -9,7 +9,7 @@ header {
 }
 
 h2 {
-    font-size: 34px;
+    font-size: 40px;
 }
 
 header >h1 {
@@ -43,9 +43,18 @@ header >h1 {
     padding-right: 5px;
 }
 
-.smallercards {
+.smallercards1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.smallercards2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .smallerimg {
@@ -54,7 +63,16 @@ header >h1 {
     height: 300px;
 }
 
+.contactnav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
 
+.contact {
+    background-color: pink;
+    border: 5px solid black;
+}
 
 #portfolio {
     color: aqua;
@@ -62,7 +80,7 @@ header >h1 {
 
 #abouthead {
     position: relative;
-    top: 70px;
+    top: 80px;
     left: 20px;
 }
 
@@ -88,4 +106,9 @@ header >h1 {
     position: absolute;
     top: 600px;
     right: 20px;
+}
+
+#contacthead {
+    position: relative;
+    left: 20px;
 }
