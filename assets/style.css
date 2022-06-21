@@ -2,12 +2,14 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-@media only screen and (max-width: 1024) {
-    
+/*@media only screen and (max-width: 800px) {
+    #aboutpara {
+        margin-right: auto;
+    }
 }
-
+*/
 header {
-    position: sticky; top: 0;
+    position: sticky; top: 5px;
     background-color: pink;
     border: 5px solid black;
     z-index: 1;
@@ -115,9 +117,8 @@ header >h1 {
 }
 
 #projectshead {
-    position: absolute;
-    top: 600px;
-    right: 20px;
+    position: relative;
+    left: 20px;
 }
 
 #contacthead {

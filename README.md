@@ -11,11 +11,11 @@ https://pbarkley.github.io/02-portfolio-challenge/
 
 ## Description
 
+This is my portfolio webpage. There is a header with functional navigation bar linking to the about section, the projects section, and the contact me footer. The about me section contains a paragraph about myself and a recent photo. The projects section includes several images of my projects that redirect the user to those webpages when clicked. The contact section includes a link to my GitHub, my email address, and my phone number. 
 
+## Webpage Gif
 
-## Screenshot
-
-
+![Webpage Gif](./assets/images/webpagegif.gif)
 
 ## Credits
 
