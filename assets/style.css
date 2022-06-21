@@ -96,6 +96,15 @@ header >h1 {
     font-size: 24px;
 }
 
+#profileimg {
+    display: flex;
+    position: absolute;
+    right: 70px;
+    top: 230px;
+    width: 200px;
+    height: 200px;
+}
+
 #cheatsheetimg {
     opacity: 0.5;
     width: 900px;
