@@ -2,10 +2,15 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+@media only screen and (max-width: 1024) {
+    
+}
+
 header {
-    position: sticky;
+    position: sticky; top: 0;
     background-color: pink;
     border: 5px solid black;
+    z-index: 1;
 }
 
 h2 {
@@ -16,8 +21,6 @@ header >h1 {
     font-size: 40px;
     margin-left: 15px;
 }
-
-
 
 .navbar {
     font-size: 24px;
